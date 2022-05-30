@@ -22,7 +22,7 @@
     width: 67px;
     height: 100px;
     bottom: 302px;
-    right: 118px;
+    right: 112px;
 
     @media (min-width: $min-tablet) {
       bottom: 326px;
@@ -42,10 +42,6 @@
   @include zero;
   @include weight-font(30px, 25px);
   padding-bottom: 27px;
-
-  @media (max-width: $min-phone) {
-    margin-left: 7px;
-  }
 
   @media (min-width: $min-tablet) {
     padding-bottom: 48px;

@@ -86,6 +86,10 @@
     padding-left: 6px;
   }
   color: $basic-white;
+
+  @media (min-width: $min-desktop) {
+    padding-left: 0;
+  }
 }
 
 .additional-list__icon {

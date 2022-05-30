@@ -28,9 +28,6 @@
 }
 
 .reviews__title {
-  @media (max-width: $min-phone) {
-    padding-left: 7px;
-  }
 
   @media (min-width: $min-tablet) {
     padding-top: 84px;
@@ -47,10 +44,6 @@
   padding-top: 14px;
   padding-bottom: 31px;
 
-  @media (max-width: $min-phone) {
-    padding-left: 7px;
-  }
-
   @media (min-width: $min-tablet) {
     padding-top: 38px;
     padding-bottom: 58px;
@@ -63,18 +56,11 @@
   }
 }
 
-.reviews__text-wrap {
-  white-space: nowrap;
-}
 
 .reviews__author-name {
   @include zero;
   @include weight-font;
   font-style: normal;
-
-  @media (max-width: $min-phone) {
-    padding-left: 7px;
-  }
 
   @media (min-width: $min-tablet) {
     @include weight-font(24px, 18px);
@@ -126,8 +112,3 @@
   }
 }
 
-.reviews__write--button{
-  @media (max-width: $min-phone) {
-    margin-left: 7px;
-  }
-}

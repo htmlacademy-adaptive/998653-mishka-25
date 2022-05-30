@@ -63,10 +63,6 @@
 
   @include zero;
 
-  @media (max-width: $min-phone) {
-    padding-left: 7px;
-  }
-
   @media (min-width: $min-desktop) {
     grid-column-start: 2;
     padding-top: 61px;
@@ -120,10 +116,6 @@
   color: $basic-mint;
   text-transform: uppercase;
 
-  @media (max-width: $min-phone) {
-    padding-left: 7px;
-  }
-
   @media (min-width: $min-tablet) {
     text-align: center;
     width: 37%;
@@ -148,10 +140,6 @@
 
   @include basic-font;
 
-  @media (max-width: $min-phone) {
-    padding-left: 7px;
-  }
-
   @media (min-width: $min-tablet) {
     padding-top: 37px;
     padding-right: 40px;
@@ -171,9 +159,6 @@
   @include zero;
   padding-bottom: 29px;
 
-  @media (max-width: $min-phone) {
-    padding-left: 7px;
-  }
 
   @media (min-width: $min-desktop) {
     padding-bottom: 79px;

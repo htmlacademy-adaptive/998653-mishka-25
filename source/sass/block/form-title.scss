@@ -36,7 +36,7 @@
   height: 1px;
   background-color: $border-mint;
 
-  @media (max-width: $min-tablet) {
+  @media (min-width: $min-tablet) {
     display: none;
   }
 }

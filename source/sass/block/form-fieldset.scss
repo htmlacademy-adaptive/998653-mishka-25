@@ -92,7 +92,7 @@
 .form-fieldset__label--radio::before {
   content: "";
   position: absolute;
-  top: -4px;
+  top: -8px;
   left: 0;
 
   @include size (40px, 40px);
@@ -114,6 +114,7 @@
     left: 10px;
   }
 }
+
 
 .form-fieldset__input:checked + .form-fieldset__label--radio::before {
   background-color: $border-mint;
