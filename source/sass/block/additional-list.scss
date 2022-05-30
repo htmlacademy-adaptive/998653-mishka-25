@@ -78,15 +78,27 @@
   display: block;
   max-width: 160px;
 
+  @media (max-width: $min-phone) {
+    padding-left: 2px;
+  }
+
   @media (min-width: $min-tablet) {
     padding-left: 6px;
   }
   color: $basic-white;
+
+  @media (min-width: $min-desktop) {
+    padding-left: 0;
+  }
 }
 
 .additional-list__icon {
   fill: $darkest-mint;
   fill-opacity: 0.5;
+
+  @media (max-width: $min-phone) {
+    margin-right: 7px;
+  }
 
   &--interior {
     @media (min-width: $min-tablet) {

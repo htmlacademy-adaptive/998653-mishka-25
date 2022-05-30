@@ -28,6 +28,7 @@
 }
 
 .reviews__title {
+
   @media (min-width: $min-tablet) {
     padding-top: 84px;
     padding-right: 180px;
@@ -49,10 +50,12 @@
   }
 
   @media (min-width: $min-desktop) {
+    max-width: 804px;
     padding-top: 35px;
     padding-bottom: 42px;
   }
 }
+
 
 .reviews__author-name {
   @include zero;
@@ -76,6 +79,10 @@
   font-size: 17px;
   color: $darkest-grey;
   font-style: normal;
+
+  @media (max-width: $min-phone) {
+    padding-left: 7px;
+  }
 }
 
 .reviews__wrap {
@@ -104,3 +111,4 @@
     max-width: 175px;
   }
 }
+

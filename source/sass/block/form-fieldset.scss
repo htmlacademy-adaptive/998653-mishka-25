@@ -99,6 +99,10 @@
   border: 2px solid $darkest-grey;
   border-radius: 50%;
 
+  &:nth-child(2) {
+    top: -2px;
+  }
+
   @media (min-width: $min-tablet) {
     top: -17px;
     left: 5px;
@@ -110,6 +114,7 @@
     left: 10px;
   }
 }
+
 
 .form-fieldset__input:checked + .form-fieldset__label--radio::before {
   background-color: $border-mint;
@@ -195,7 +200,7 @@
   }
 
   @media (min-width: $min-desktop) {
-    left: 30px;
+    left: 28px;
   }
 }
 
