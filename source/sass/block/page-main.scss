@@ -48,6 +48,12 @@
   }
 }
 
+.page-main__about-us-title {
+  @media (max-width: $min-phone) {
+    padding-left: 7px;
+  }
+}
+
 .page-main__reviews {
   padding-bottom: 54px;
 
@@ -75,13 +81,13 @@
 
   @media (min-width: $min-tablet) {
     @include padding(50px, 50px);
-    margin-top: 28px;
+    margin-top: 30px;
     padding-bottom: 63px;
   }
 
   @media (min-width: $min-desktop) {
     margin-top: 30px;
-    padding-top: 24px;
+    padding-top: 22px;
     padding-bottom: 105px;
   }
 }
